@@ -30,11 +30,10 @@
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="91dp"
-            android:background="@color/white"
             android:layout_height="53dp"
             android:scaleType="fitXY"
             android:layout_weight="1"
-            app:srcCompat="@drawable/book"
+            android:background="@drawable/book"
             android:contentDescription="@string/app_name"
             />
 
@@ -55,7 +54,6 @@
                 android:id="@+id/imageView2"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:background="null"
                 android:src="@drawable/chandung"
                 />
         </LinearLayout>
