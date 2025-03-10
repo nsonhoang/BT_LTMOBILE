@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HỆ THỐNG" />
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÍ THƯ VIỆN" />
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân viên" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/outline_radius"
+            android:ems="10"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:enabled="false"
+            android:inputType="text"
+             />
+
+        <Button
+            android:id="@+id/btnName"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#1253af"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đổi" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Danh sách sách" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ListView
+            android:id="@+id/lvBook"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#1253af"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+
+</LinearLayout>

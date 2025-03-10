@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Quản lí"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:id="@+id/listbook"
+        android:title="Ds sách"
+        android:icon="@drawable/baseline_library_books_24"/>
+    <item android:id="@+id/staff"
+        android:title="Nhân viên"
+        android:icon="@drawable/baseline_account_circle_24" />
+</menu>

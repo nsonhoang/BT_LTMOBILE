@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Bai2_tuan2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="list_book">
+        <item>Cuốn theo chiều gió - Margaret Mitchell</item>
+        <item>Ông già và biển cả - Ernest Hemingway</item>
+        <item>Giết con chim nhại - Harper Lee</item>
+        <item>1984 - George Orwell</item>
+        <item>Chúa tể của những chiếc nhẫn - J.R.R. Tolkien</item>
+        <item>Kiêu hãnh và định kiến - Jane Austen</item>
+        <item>Nhà giả kim - Paulo Coelho</item>
+        <item>Hoàng tử bé - Antoine de Saint-Exupéry</item>
+        <item>Đắc nhân tâm - Dale Carnegie</item>
+        <item>Không gia đình - Hector Malot</item>
+    </string-array>
+    '
+    <string-array name="list_staff">
+        <item>Nguyễn Văn A</item>
+        <item>Trần Thị B</item>
+        <item>Lê Hoàng C</item>
+        <item>Phạm Thu D</item>
+        <item>Hoàng Minh E</item>
+        <item>Vũ Thị F</item>
+        <item>Đỗ Văn G</item>
+        <item>Cao Thanh H</item>
+        <item>Bùi Ngọc I</item>
+        <item>Đinh Phương K</item>
+    </string-array>
+</resources>
