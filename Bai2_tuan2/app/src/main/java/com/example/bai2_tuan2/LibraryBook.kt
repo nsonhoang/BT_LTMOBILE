@@ -9,10 +9,19 @@ import com.example.bai2_tuan2.databinding.FragmentLibraryBookBinding
 
 class LibraryBook : Fragment() {
 
+
+
     private lateinit var binding: FragmentLibraryBookBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+         val name = arguments?.getString("name")?:""
+        val  arrayBook = arguments?.getStringArrayList("bookname")?:ArrayList()
+        createListLibrary(arrayBook,name)
     }
 
     override fun onCreateView(
@@ -21,17 +30,17 @@ class LibraryBook : Fragment() {
     ): View? {
         binding = FragmentLibraryBookBinding.inflate(inflater,container,false)
         val view = binding.root
-        createListLibrary()
 
         return view
     }
-    private fun createListLibrary(){
-        var list= mutableListOf<DataLibrary>()
-        list.add(DataLibrary("Nguễn Văn E","Chúa Tể Của Những Chiếc Nhẫn"))
-        list.add(DataLibrary(" Nguyễn Văn D","Cuối Theo Chiều Gió"))
-        list.add(DataLibrary("Lê Văn C","LOL"))
+    private fun createListLibrary(list: ArrayList<String>,name:String){
+        val listView = mutableListOf<DataLibrary>()
 
-        val adapter = CustomListView2(requireActivity(),list)
+        list.forEach { item->
+            listView.add(DataLibrary(name,item))
+        }
+
+        val adapter = CustomListView2(requireActivity(),listView)
 
         binding.listLibrary.adapter=adapter
 

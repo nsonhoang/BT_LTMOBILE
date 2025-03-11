@@ -16,7 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a9e5700-6210-4727-9362-ea3af7e79573" name="Changes" comment="bai 2 tuan 2" />
+    <list default="true" id="9a9e5700-6210-4727-9362-ea3af7e79573" name="Changes" comment="sửa bai 2 tuan 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +25,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Admin\.android\avd\Pixel_6_API_34.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=8b1635fb)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -187,14 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741618477517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sửa bai 2 tuan 2">
+      <option name="closed" value="true" />
+      <created>1741684061165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741684061165</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thay doi" />
     <MESSAGE value="bai 1 tuan 2" />
     <MESSAGE value="bai 2 tuan 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="bai 2 tuan 2" />
+    <MESSAGE value="sửa bai 2 tuan 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sửa bai 2 tuan 2" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
