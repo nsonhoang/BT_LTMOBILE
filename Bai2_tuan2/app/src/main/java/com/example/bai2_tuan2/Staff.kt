@@ -13,6 +13,8 @@ import com.example.bai2_tuan2.databinding.FragmentStaffBinding
 
 class Staff : Fragment() {
     private lateinit var binding: FragmentStaffBinding
+    private var staffList: MutableList<String> = mutableListOf()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -28,7 +30,7 @@ class Staff : Fragment() {
     }
 
     private fun addEvents() {
-        GlobalList.list = listOfStaff()
+        staffList=listOfStaff()
         setListViewStaff()
         handleAddStaff()
         onClickItemListStaff()
@@ -37,7 +39,7 @@ class Staff : Fragment() {
     private fun handleAddStaff() {
         binding.btnLuu.setOnClickListener {
             val name:String = binding.edtTen.text.toString()
-            GlobalList.list.add(name)
+            staffList.add(name)
             binding.edtTen.setText("")
             setListViewStaff()
         }
@@ -49,12 +51,20 @@ class Staff : Fragment() {
 
     private fun setListViewStaff() {
         binding.lvStaff.adapter = ArrayAdapter(
-            requireContext(),android.R.layout.simple_list_item_1,GlobalList.list)
-
+            requireContext(),android.R.layout.simple_list_item_1,staffList)
     }
-    private fun onClickItemListStaff(){
-        binding.lvStaff.onItemClickListener=AdapterView.OnItemClickListener { adapterView, view, i, l ->
+    private fun onClickItemListStaff() {
+        binding.lvStaff.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, i, l ->
+            val selectedItem = staffList[i]
 
+            val homeFragment = Home()
+            val bundle = Bundle()
+            bundle.putString("staffName",selectedItem)
+            homeFragment.arguments = bundle
+
+            parentFragmentManager.beginTransaction().replace(R.id.frame_layout,homeFragment)
+                .addToBackStack(null)
+                .commit()
         }
     }
 }

@@ -27,7 +27,16 @@ class Home : Fragment() {
 
         return binding.root
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        val staffName = arguments?.getString("staffName")
+        println("alo"+staffName)
+        if (staffName != null) {
+            // Cập nhật UI trong HomeFragment với dữ liệu staffName
+            binding.edtName.setText(staffName)// Giả sử binding.txtStaffName là TextView trong HomeFragment
+        }
+    }
     private fun setListViewBook() {
         val list = resources.getStringArray(R.array.list_book)
         customListView = CustomListView(requireActivity(), list)
@@ -45,7 +54,6 @@ class Home : Fragment() {
             val staffFragment = Staff() // Tạo một instance của Staff Fragment
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
             transaction.replace(R.id.frame_layout, staffFragment) // R.id.fragment_container là ID của view chứa fragment
-            transaction.addToBackStack(null) // Thêm vào back stack nếu bạn muốn quay lại
             transaction.commit() // Thực hiện giao dịch
 
         }
