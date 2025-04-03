@@ -16,9 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a9e5700-6210-4727-9362-ea3af7e79573" name="Changes" comment="them bai 2 tuan 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a9e5700-6210-4727-9362-ea3af7e79573" name="Changes" comment="them bai 1 tuan 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +25,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Admin\.android\avd\Pixel_6_API_34.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=8b1635fb)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -80,7 +78,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/BAIHOC/Nam3ki2/Lap_trinh_Mobile/BTVN/Bai2_tuan2"
+    "last_opened_file_path": "D:/BAIHOC/Nam3ki2/Lap_trinh_Mobile/BTVN"
   }
 }]]></component>
   <component name="RunManager">
@@ -205,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741710445840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="them bai 1 tuan 3">
+      <option name="closed" value="true" />
+      <created>1742136950942</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742136950942</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +220,8 @@
     <MESSAGE value="bai 2 tuan 2" />
     <MESSAGE value="sửa bai 2 tuan 2" />
     <MESSAGE value="them bai 2 tuan 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="them bai 2 tuan 2" />
+    <MESSAGE value="them bai 1 tuan 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="them bai 1 tuan 3" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
