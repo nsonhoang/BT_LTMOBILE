@@ -70,7 +70,9 @@ fun BottomMyAppBar(){
         floatingActionButton = {
                 FloatingActionButton(
                     onClick = {
-                        Toast.makeText(context, "Alo", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(context, AddTask::class.java)
+
+                        context.startActivity(intent)
 
                     },
                     shape = CircleShape,
@@ -150,6 +152,7 @@ fun BottomMyAppBar(){
             composable(Screens.Search.screen){ Search() }
             composable(Screens.Notification.screen){ Notification() }
             composable(Screens.Profile.screen){ Profile() }
+            composable("addtask") { TaskScreen() }
         }
     }
 }

@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bai1_tuan4"
         tools:targetApi="31" >
+        <activity android:name=".AddTask"
+            android:theme="@style/Theme.Bai1_tuan4"
+            />.
         <activity
             android:name=".Login"
             android:exported="false"

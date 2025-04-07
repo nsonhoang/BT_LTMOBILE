@@ -65,7 +65,7 @@ fun Home(){
     LaunchedEffect(Unit) {
         viewModel.fetchTasks()
     }
-    val data = viewModel.tasks.collectAsState().value
+    val data by viewModel.tasks.collectAsState()
 
     if(viewModel.isLoading.collectAsState().value){
         Row(
