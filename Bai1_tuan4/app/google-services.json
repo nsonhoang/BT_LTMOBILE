@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420809207319",
+    "project_id": "uthsmarttalks",
+    "storage_bucket": "uthsmarttalks.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420809207319:android:9c4f7e1fc156de472b7652",
+        "android_client_info": {
+          "package_name": "com.example.bai1_tuan4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420809207319-c5uoe0grefnp860jk1118ishk0jfrlpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bai1_tuan4",
+            "certificate_hash": "5a66f95970ececb9499e97b15f77363f1e87d3fd"
+          }
+        },
+        {
+          "client_id": "420809207319-ovuvvjn85nf13ucvk7r284d87s0g7e6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuyEia6UTswhqZ7PPex2N1pLYXpPSS1BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420809207319-ovuvvjn85nf13ucvk7r284d87s0g7e6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

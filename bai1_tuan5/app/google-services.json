@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617490657283",
+    "project_id": "fir-tuan5",
+    "storage_bucket": "fir-tuan5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617490657283:android:e31057a2c695e4e3f0de36",
+        "android_client_info": {
+          "package_name": "com.example.bai1_tuan5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Cw3VSAAJvi3uLmcZ7I2hDde9wg16CcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

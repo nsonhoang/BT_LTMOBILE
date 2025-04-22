@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Bai2_tuan3" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.SplashScreen." parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+      duration. -->
+
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/giaothongvantaitphcm</item>
+        <!-- Required for animated icons. -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/Theme.Bai2_tuan3</item>
+    </style>
+</resources>
